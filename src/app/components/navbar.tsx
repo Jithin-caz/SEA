@@ -8,9 +8,9 @@ const navigation = [
     { name: 'ABOUT', href: '/pages/about', current: false },
     { name: 'GALLERY', href: '/pages/gallery', current: false },
     { name: 'EVENTS', href: '/pages/events', current: false },
-    { name: 'CHAPTERS', href: '#', current: false },
-    { name: 'MEMBERSHIP', href: '#', current: false },
-    { name: 'CONTACT', href: '#', current: false },
+    { name: 'CHAPTERS', href: '/pages/chapters', current: false },
+    { name: 'MEMBERSHIP', href: '/pages/membership', current: false },
+    { name: 'CONTACT', href: '/pages/contact', current: false },
 ];
 
 function classNames(...classes:string[]) {
