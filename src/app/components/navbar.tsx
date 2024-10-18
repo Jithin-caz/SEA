@@ -24,14 +24,14 @@ export default function Navbar() {
   
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <nav className="bg-white bg-opacity-5 shadow-lg backdrop-blur-md fixed w-dvw z-20">
+        <nav className="bg-gray-800 shadow-lg backdrop-blur-md fixed w-dvw z-20">
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                 <div className="relative flex h-16 items-center justify-between">
                     <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
                         {/* Mobile menu button */}
                         <button
                             onClick={() => setIsOpen((prev) => !prev)}
-                            className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                            className="inline-flex items-center justify-center rounded-md p-2 text-gray-200 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                         >
                             {isOpen ? (
                                 <AiOutlineClose className="h-6 w-6" />
@@ -56,7 +56,7 @@ export default function Navbar() {
                                         href={item.href}
                                         aria-current={item.current ? 'page' : undefined}
                                         className={classNames(
-                                            item.href==currentPath ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-700 hover:text-white',
+                                            item.href==currentPath ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                                             'rounded-md px-3 py-2 text-sm font-medium',
                                         )}
                                     >
