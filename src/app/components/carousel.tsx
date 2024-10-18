@@ -17,7 +17,7 @@ const CarouselComponent = () => {
                 dynamicHeight={false}
                 showStatus={false}
                 showArrows={false}
-                showIndicators={false}
+                showIndicators={true}
             >   
                 <div>
                     <img className="h-[100dvh] w-[100dvw] object-cover" src="/images/bg.png" alt="Slide 1" />
