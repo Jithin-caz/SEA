@@ -4,6 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const CarouselComponent = () => {
+    
     return (
         <div className="h-[100dvh] w-[100dvw] overflow-hidden">
             <Carousel 
@@ -11,7 +12,7 @@ const CarouselComponent = () => {
                 infiniteLoop={true}
                 useKeyboardArrows={true}
                 autoPlay={true}
-                interval={3000}
+                interval={4000}
                 stopOnHover={false}
                 dynamicHeight={false}
                 showStatus={false}
