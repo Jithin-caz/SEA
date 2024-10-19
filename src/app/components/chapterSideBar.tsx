@@ -1,0 +1,77 @@
+"use client";
+import { useState } from 'react';
+import ChapterSideHeading from './chapterSideHeading';
+import { FaAnglesRight, FaAnglesLeft } from "react-icons/fa6";
+
+export default function ChapterSideBar() {
+
+    const sideText = [
+        {
+            heading: "About INSARM",
+            subheading: [
+                {
+                    text: "INSARM Origin",
+                    link: ""
+                },
+                {
+                    text: "Objectives & Activities",
+                    link: ""
+                },
+            ]
+        },
+        {
+            heading: "National Governing Council",
+            subheading: [
+                {
+                    text: "About NGC",
+                    link: ""
+                },
+                {
+                    text: "Office bearers",
+                    link: ""
+                },
+            ]
+        },
+        {
+            heading: "Chapters",
+            subheading: [
+                {
+                    text: "Thiruvananthapuram",
+                    link: ""
+                },
+                {
+                    text: "Bengaluru",
+                    link: ""
+                },
+                {
+                    text: "Pune",
+                    link: ""
+                },
+                {
+                    text: "Hyderabad",
+                    link: ""
+                },
+                {
+                    text: "Agra",
+                    link: ""
+                },
+            ]
+        },
+    ];
+
+    const [sidebarOpen, setSidebarOpen] = useState(false);
+
+    return (
+        <aside
+            className={`fixed left-0 top-0 p-8 pt-20 z-[999] flex h-dvh w-72 flex-col items-start justify-start overflow-y-hidden bg-black duration-300 ease-linear dark:bg-boxdark lg:translate-x-0 ${sidebarOpen ? "translate-x-0" : "-translate-x-full"}`}
+        >
+            <FaAnglesRight className='block lg:hidden text-black absolute -right-12 top-20 text-4xl z-[999]' />
+            <FaAnglesLeft className='block lg:hidden text-white absolute right-4 top-20 text-4xl' />
+
+            {/* Loop through sideText and pass the heading and subheading */}
+            {sideText.map((text, index) => (
+                <ChapterSideHeading key={index} text={text} />
+            ))}
+        </aside>
+    );
+}
