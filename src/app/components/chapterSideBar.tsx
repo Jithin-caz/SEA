@@ -36,24 +36,24 @@ export default function ChapterSideBar() {
             heading: "Chapters",
             subheading: [
                 {
-                    text: "Thiruvananthapuram",
-                    link: ""
+                    text: "Trivandrum",
+                    link: "/pages/chapter?title=Trivandrum"
                 },
                 {
                     text: "Bengaluru",
-                    link: ""
+                    link: "/pages/chapter?title=Bengaluru"
                 },
                 {
                     text: "Pune",
-                    link: ""
+                    link: "/pages/chapter?title=Pune"
                 },
                 {
                     text: "Hyderabad",
-                    link: ""
+                    link: "/pages/chapter?title=Hyderabad"
                 },
                 {
                     text: "Agra",
-                    link: ""
+                    link: "/pages/chapter?title=Agra"
                 },
             ]
         },
