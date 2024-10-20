@@ -27,6 +27,10 @@
                  0 0 6px rgba(202, 240, 248, 0.2), 
                  0 0 9px rgba(202, 240, 248, 0.1);
   }
-  
-  
-  
+  .trans
+  {
+    pointer-events: none; /* Allow the cursor to interact with the background */
+      mask: radial-gradient(circle 100px at 50% 50%, transparent 100px, black 101px); /* Start with a centered circle */
+      -webkit-mask: radial-gradient(circle 100px at 50% 50%, transparent 100px, black 101px); /* For Safari */
+      transition: mask-position 0.1s ease-out; /* Smooth transition for the circle */
+  }
