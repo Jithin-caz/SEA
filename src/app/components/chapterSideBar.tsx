@@ -65,8 +65,8 @@ export default function ChapterSideBar() {
         <aside
             className={`fixed left-0 top-0 p-8 pt-20 z-[999] flex h-dvh w-72 flex-col items-start justify-start overflow-y-hidden bg-black duration-300 ease-linear dark:bg-boxdark lg:translate-x-0 ${sidebarOpen ? "translate-x-0" : "-translate-x-full"}`}
         >
-            <FaAnglesRight className='block lg:hidden text-black absolute -right-12 top-20 text-4xl z-[999]' />
-            <FaAnglesLeft className='block lg:hidden text-white absolute right-4 top-20 text-4xl' />
+            <FaAnglesRight onClick={() => setSidebarOpen(true)} className='block lg:hidden text-black absolute -right-12 top-20 text-4xl z-[999]' />
+            <FaAnglesLeft onClick={() => setSidebarOpen(false)} className='block lg:hidden text-white absolute right-4 top-20 text-4xl' />
 
             {/* Loop through sideText and pass the heading and subheading */}
             {sideText.map((text, index) => (

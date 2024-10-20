@@ -1,7 +1,7 @@
 "use client";
 import ChapterRight from "@/app/components/chapterRight";
 import ChapterSideBar from "@/app/components/chapterSideBar";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 
 export default function ChapterPage() {
   const searchParams = useSearchParams(); // Get search params
