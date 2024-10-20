@@ -28,7 +28,7 @@ const ContactPage: React.FC = () => {
   return (
         <section className="pt-36 p-5 flex flex-col gap-8">
             <div className="px-2 sm:px-10 flex flex-col">
-                <Heading text1="Membership Details" text2="" />
+                <Heading text1="Contact" text2="Us" />
             </div>
         <div className="grid sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-4xl bg-white font-[sans-serif]">
           <div>

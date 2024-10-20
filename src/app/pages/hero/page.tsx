@@ -57,7 +57,7 @@ export default function Hero() {
                 <CarouselComponent />
             </div>
             <div className="p-2 z-10 absolute flex flex-col items-center justify-center top-0 left-0 w-dvw h-dvh bg-black bg-opacity-55 text-white"> </div>
-            <div onMouseMove={updateCircleMask} className="  blurBg p-5 relative z-40  w-dvw h-dvh">
+            <div onMouseMove={updateCircleMask} className="  blurBg md:p-5 relative z-40  w-dvw h-dvh">
             <div
             ref={glassBoxRef}
             className="trans w-full h-full bg-white bg-opacity-5 rounded-lg backdrop-blur-lg overflow-hidden"></div>

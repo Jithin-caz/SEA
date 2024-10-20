@@ -22,7 +22,7 @@ export default function Membership() {
     return (
         <section className="pt-36 p-5 flex flex-col gap-8">
             <div className="px-2 sm:px-10 flex flex-col">
-                <Heading text1="Membership Details" text2="" />
+                <Heading text1="Membership" text2="Details" />
             </div>
             <div className=" px-2 sm:px-10 w-full">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
