@@ -1,4 +1,5 @@
 import Newsletter from "./components/newsletter";
+import People from "./components/people";
 import Hero from "./pages/hero/page";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
      <Hero/> 
      <Newsletter />
+     <People />
     </>
   
   );
