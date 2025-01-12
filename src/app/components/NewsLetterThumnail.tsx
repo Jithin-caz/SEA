@@ -1,11 +1,21 @@
-export default function NewsLetterThumbnail({ link, month }: {link: string, month: string}) {
+export default function NewsLetterThumbnail({ link, month }: { link: string; month: string }) {
   return (
-    <div className="relative w-96 h-64 bg-red-800 rounded-md">
-        <a href={link} className=" w-full h-full absolute left-0 top-0"></a>
-        <div className="absolute bottom-6 w-full flex items-center justify-center flex-row gap-3">
-            <img src="/images/Logo/logo.png" alt="" className=" h-12" />
-            <h6 className=" text-white text-xl font-bold">NewsLetter {month}</h6>
-        </div>
+    <div className="relative w-96 h-64 bg-red-800 rounded-md overflow-hidden">
+      {/* PDF First Page Preview */}
+      <a
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="absolute inset-0 w-full h-full"
+      >
+        <embed
+          src={`${link}#page=1&toolbar=0&navpanes=0&scrollbar=0`}
+          type="application/pdf"
+          className="w-full h-full rounded-md pointer-events-none"
+        />
+      </a>
+
+    
     </div>
-  )
+  );
 }
