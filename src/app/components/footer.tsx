@@ -4,7 +4,7 @@ import { SocialIcons } from "./socialIcons";
 const Footer: React.FC = () => {
   return (
     <footer className="bg-white dark:bg-gray-900 relative z-[999]">
-      <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+      <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 overflow-x-clip">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a href="/" className="flex items-center">
@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
                 className="h-12 me-3"
                 alt="FlowBite Logo"
               />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="self-center text-2xl font-semibold  dark:text-white">
                 Space Engineers Assosiation
               </span>
             </a>

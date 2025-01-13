@@ -1,6 +1,6 @@
 export default function NewsLetterThumbnail({ link }: { link: string; month: string }) {
   return (
-    <div className="relative w-96 h-64 bg-red-800 rounded-md overflow-hidden">
+    <div className="relative max-w-96 h-64 bg-red-800 rounded-md overflow-hidden">
       {/* PDF First Page Preview */}
       <a
         href={link}
