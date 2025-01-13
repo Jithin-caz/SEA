@@ -36,7 +36,7 @@ export default function Newsletter() {
         <RiseUpText>
             <Heading text1={"SEA"} text2={"NewsLetters"}/>
         </RiseUpText> 
-        <div className=" py-4 grid grid-cols-1 md:grid-cols-3 gap-3">
+        <div className=" py-4 px-1 grid grid-cols-1 md:grid-cols-3 gap-3">
             {
                 newsletters.map((newsletter, index) => (
                     <NewsLetterThumbnail key={index} link={newsletter.link} month={newsletter.month} />

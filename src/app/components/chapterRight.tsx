@@ -21,7 +21,7 @@ export default function ChapterRight({ chapterTitle }: ChapterRightProps) {
   }
   
   return (
-    <div className="w-full min-h-screen z-[99] mt-16 p-5 bg-gray-100">
+    <div className="w-full min-h-screen z-30 mt-16 p-5 bg-gray-100">
       <div className="px-2 sm:px-10 flex flex-col ml-0 lg:ml-72 mb-5">
         <Heading text1={selectedChapter.heading} text2="Chapter" />
       </div>

@@ -23,49 +23,25 @@ export default function Chapters() {
         {
             src: "https://media.gettyimages.com/id/1291177121/photo/low-angle-of-tall-building-in-manhattan.jpg?s=612x612&w=gi&k=20&c=c4CLbODYqs_Qf2wtWPWxOWYOFr6jlc_tze7d__q50xQ=",
             logo: "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg",
-            title: "Chapter Two",
+            title: "Bengaluru",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed diam nonumy eirmod tempor.",
         },
         {
             src: "https://media.gettyimages.com/id/1291177121/photo/low-angle-of-tall-building-in-manhattan.jpg?s=612x612&w=gi&k=20&c=c4CLbODYqs_Qf2wtWPWxOWYOFr6jlc_tze7d__q50xQ=",
             logo: "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg",
-            title: "Chapter Three",
+            title: "Pune",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed diam nonumy eirmod tempor.",
         },
         {
             src: "https://media.gettyimages.com/id/1291177121/photo/low-angle-of-tall-building-in-manhattan.jpg?s=612x612&w=gi&k=20&c=c4CLbODYqs_Qf2wtWPWxOWYOFr6jlc_tze7d__q50xQ=",
             logo: "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg",
-            title: "Chapter Four",
+            title: "Hyderabad",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed diam nonumy eirmod tempor.",
         },
         {
             src: "https://media.gettyimages.com/id/1291177121/photo/low-angle-of-tall-building-in-manhattan.jpg?s=612x612&w=gi&k=20&c=c4CLbODYqs_Qf2wtWPWxOWYOFr6jlc_tze7d__q50xQ=",
             logo: "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg",
-            title: "Chapter Five",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed diam nonumy eirmod tempor.",
-        },
-        {
-            src: "https://media.gettyimages.com/id/1291177121/photo/low-angle-of-tall-building-in-manhattan.jpg?s=612x612&w=gi&k=20&c=c4CLbODYqs_Qf2wtWPWxOWYOFr6jlc_tze7d__q50xQ=",
-            logo: "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg",
-            title: "Chapter Four",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed diam nonumy eirmod tempor.",
-        },
-        {
-            src: "https://media.gettyimages.com/id/1291177121/photo/low-angle-of-tall-building-in-manhattan.jpg?s=612x612&w=gi&k=20&c=c4CLbODYqs_Qf2wtWPWxOWYOFr6jlc_tze7d__q50xQ=",
-            logo: "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg",
-            title: "Chapter Four",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed diam nonumy eirmod tempor.",
-        },
-        {
-            src: "https://media.gettyimages.com/id/1291177121/photo/low-angle-of-tall-building-in-manhattan.jpg?s=612x612&w=gi&k=20&c=c4CLbODYqs_Qf2wtWPWxOWYOFr6jlc_tze7d__q50xQ=",
-            logo: "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg",
-            title: "Chapter Four",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed diam nonumy eirmod tempor.",
-        },
-        {
-            src: "https://media.gettyimages.com/id/1291177121/photo/low-angle-of-tall-building-in-manhattan.jpg?s=612x612&w=gi&k=20&c=c4CLbODYqs_Qf2wtWPWxOWYOFr6jlc_tze7d__q50xQ=",
-            logo: "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg",
-            title: "Chapter Four",
+            title: "Agra",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed diam nonumy eirmod tempor.",
         },
     ];

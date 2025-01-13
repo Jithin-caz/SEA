@@ -7,7 +7,7 @@ export default function About()
 {
     return(
         <section className=" pt-32 p-2 grid grid-cols-5">
-        <div className=" px-2 sm:px-10 flex flex-col col-span-5 md:col-span-4">
+         <div className=" px-2 sm:px-10 flex flex-col col-span-5 md:col-span-4">
        <RiseUpText><Heading text1={"About"} text2={"SEA"}/></RiseUpText> 
        <RiseUpText>
        <p className=" mt-10">
@@ -48,8 +48,7 @@ export default function About()
          With the participation of 38 organizations and publication of numerous technical papers, the need to have inter-link and close ties among the scientific
           community was articulated, with a vision for venturing into a resolute platform.</p>
        </RiseUpText>
-        </div>
-      
+        </div> 
         </section>
     )
 }
