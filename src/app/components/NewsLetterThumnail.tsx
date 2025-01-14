@@ -8,9 +8,10 @@ export default function NewsLetterThumbnail({ link }: { link: string; month: str
         rel="noopener noreferrer"
         className="absolute inset-0 w-full h-full"
       >
-        <embed
+        <iframe
           src={`${link}#page=1&toolbar=0&navpanes=0&scrollbar=0`}
-          type="application/pdf"
+          // type="application/pdf"
+          title={`Newsletter preview`}
           className="w-full h-full rounded-md pointer-events-none"
         />
       </a>
