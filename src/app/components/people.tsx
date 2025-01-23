@@ -59,7 +59,7 @@ export default function People() {
             position: "Joint Secretaries",
             division: "HRCG / VSSC (70 Acre area)",
             contact: 9446507865,
-            image: "/EC/Guruvayurappan_SBM.jpg"
+            image: "/EC/unknown.jpg"
         },
         {
             name: "Arjun Raj M",
@@ -80,28 +80,28 @@ export default function People() {
             position: "Joint Secretaries",
             division: "QCG-MM / VSSC (RFF Area)",
             contact: 9249562486,
-            image: "/EC/Somanathan_S.jpg"
+            image: "/EC/unknown.jpg"
         },
         {
             name: "Santhosh Babu S",
             position: "Joint Secretaries",
             division: "S200 / VSSC (TERLS Area)",
             contact: 9447903711,
-            image: "/EC/Somanathan_S.jpg"
+            image: "/EC/unknown.jpg"
         },
         {
             name: "Senthilkumar E",
             position: "Joint Secretaries",
             division: "/ VSSC (VKC Area)",
             contact: 9895751102,
-            image: "/EC/Somanathan_S.jpg"
+            image: "/EC/unknown.jpg"
         },
         {
             name: "Santhana Gopal",
             position: "Joint Secretaries",
             division: "S200 / VSSC (TERLS Area)",
             contact: 4712567243,
-            image: "/EC/Somanathan_S.jpg"
+            image: "/EC/unknown.jpg"
         },
         {
             name: "Krishnakumar S",
@@ -122,7 +122,7 @@ export default function People() {
             position: "Joint Secretaries",
             division: "/ IPRC (IPRC Area)",
             contact: 9746689201,
-            image: "/EC/Premkrishnan.jpg"
+            image: "/EC/unknown.jpg"
         },
         {
             name: "Ashish Tomy",
