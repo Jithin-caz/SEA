@@ -24,7 +24,7 @@ export default function Events()
     ]
 
     return(
-        <section className=" pt-36 p-3 flex flex-col">
+        <section className=" p-3 flex flex-col">
             <div className=" px-2 sm:px-10 flex flex-col">
                 <Heading text1="Latest & Upcoming" text2="Events"/>
                 <div className=" mt-12 grid grid-cols-4 gap-5 place-items-center">

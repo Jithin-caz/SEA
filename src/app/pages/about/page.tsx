@@ -1,4 +1,5 @@
 import Heading from "@/app/components/heading";
+import Newsletter from "@/app/components/newsletter";
 import RiseUpText from "@/app/components/risingtext";
 
 
@@ -6,6 +7,7 @@ import RiseUpText from "@/app/components/risingtext";
 export default function About()
 {
     return(
+      <>
         <section className=" pt-32 p-2 grid grid-cols-5">
          <div className=" px-2 sm:px-10 flex flex-col col-span-5 md:col-span-4">
        <RiseUpText><Heading text1={"About"} text2={"SEA"}/></RiseUpText> 
@@ -49,6 +51,9 @@ export default function About()
           community was articulated, with a vision for venturing into a resolute platform.</p>
        </RiseUpText>
         </div> 
+             
         </section>
+        <Newsletter />
+      </>
     )
 }

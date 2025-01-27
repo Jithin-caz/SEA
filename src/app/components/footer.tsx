@@ -18,8 +18,8 @@ const Footer: React.FC = () => {
               </span>
             </a>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-            <div>
+          <div className="">
+            {/* <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Resources
               </h2>
@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Legal

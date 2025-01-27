@@ -1,17 +1,17 @@
-import Heading from "@/app/components/heading"
+import Events from "@/app/components/event"
 
 
 export default function Gallery()
 {
-    const galleryImages=[
-        '/images/bg1.png',
-        '/images/bg.png',   
-        '/images/bg1.png',
-        '/images/bg.png',
-        '/images/bg1.png',
-    ]
+    // const galleryImages=[
+    //     '/images/bg1.png',
+    //     '/images/bg.png',   
+    //     '/images/bg1.png',
+    //     '/images/bg.png',
+    //     '/images/bg1.png',
+    // ]
     return <section className=" pt-32 p-3">
-        <div className=" px-2 sm:px-10">
+        {/* <div className=" px-2 sm:px-10">
         <Heading text1={"Gallery"} />
         <div className="grid grid-cols-4 mt-16 gap-4">
             {galleryImages.map((key)=>
@@ -21,6 +21,7 @@ export default function Gallery()
            
             )}
         </div>
-        </div>
+        </div> */}
+        <Events />
     </section>
 }
