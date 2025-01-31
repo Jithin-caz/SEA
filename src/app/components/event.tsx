@@ -5,13 +5,7 @@ import YT_Video_Card from "@/app/components/yt_video_card";
 export default function Events()
 {
     const events=[
-        {id:1,title:"Event 1", content:"Event 1 content", image:"/images/bg.png"},
-        {id:2,title:"Event 2", content:"Event 2 content", image:"/images/bg1.png"},
-        {id:3,title:"Event 3", content:"Event 3 content", image:"/images/bg.png"},
-        {id:4,title:"Event 4", content:"Event 4 content", image:"/images/bg.png"},
-        {id:5,title:"Event 5", content:"Event 5 content", image:"/images/bg.png"},
-        {id:6,title:"Event 6", content:"Event 6 content", image:"/images/bg.png"},
-        {id:7,title:"Event 7", content:"Event 7 content", image:"/images/bg.png"},
+        {id:1,title:"Aarohan 2025", content:"April 2025", image:"/Events/Aarohan25.jpg"}
     ]
 
     const past_events = [

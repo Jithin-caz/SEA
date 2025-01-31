@@ -59,7 +59,7 @@ export default function People() {
             position: "Joint Secretaries",
             division: "HRCG / VSSC (70 Acre area)",
             contact: 9446507865,
-            image: "/EC/unknown.jpg"
+            image: "/EC/unknown_female.jpg"
         },
         {
             name: "Arjun Raj M",

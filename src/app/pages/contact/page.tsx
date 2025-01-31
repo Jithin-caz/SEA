@@ -1,7 +1,9 @@
 "use client"
 import { useState } from 'react';
 import Heading from '@/app/components/heading';
-import { ContactFacebookIcon, EmailIcon, LinkedInIcon } from '@/app/components/svgImages';
+import { EmailIcon } from '@/app/components/svgImages';
+import { BsPerson } from 'react-icons/bs';
+import { FaInstagram } from 'react-icons/fa6';
 
 const ContactPage: React.FC = () => {
 
@@ -37,6 +39,21 @@ const ContactPage: React.FC = () => {
               Have some big idea or brand to develop and need help? Then reach out we&apos;d love to hear about your project and provide help.
             </p>
             <div className="mt-12">
+              <h2 className="text-gray-800 text-base font-bold">Contact</h2>
+              <ul className="mt-4">
+                <li className="flex items-center">
+                  <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                    <BsPerson color='#007bff' width="20px" height="20px"/> {/* Using the Email icon */}
+                  </div> 
+                  <p className="text-[#007bff] text-sm ml-4 flex flex-col">
+                    <strong className="block">Shri. Nallaperumal AM</strong>
+                    <strong className="block">General Secretary</strong>
+                    <strong><a href="tel:+919447766075">9447766075</a></strong>
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div className="mt-12">
               <h2 className="text-gray-800 text-base font-bold">Email</h2>
               <ul className="mt-4">
                 <li className="flex items-center">
@@ -45,7 +62,7 @@ const ContactPage: React.FC = () => {
                   </div>
                   <a href="" className="text-[#007bff] text-sm ml-4">
                     <small className="block">Mail</small>
-                    <strong>info@example.com</strong>
+                    <strong><a href="mailto:space.eng.asc@gmail.com">space.eng.asc@gmail.com</a></strong>
                   </a>
                 </li>
               </ul>
@@ -55,18 +72,10 @@ const ContactPage: React.FC = () => {
               <ul className="mt-4 space-y-3">
                 <li className="flex items-center">
                   <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                    <ContactFacebookIcon /> {/* Using the Facebook icon */}
+                    <FaInstagram color='#007bff' width="20px" height="20px" /> {/* Using the Facebook icon */}
                   </div>
-                  <a href="/" className="text-[#007bff] text-sm ml-4">
-                    Facebook
-                  </a>
-                </li>
-                <li className="flex items-center">
-                  <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                    <LinkedInIcon /> {/* Using the LinkedIn icon */}
-                  </div>
-                  <a href="/" className="text-[#007bff] text-sm ml-4">
-                    LinkedIn
+                  <a href="https://www.instagram.com/aarohan_sea" className="text-[#007bff] text-sm ml-4">
+                    Instagram
                   </a>
                 </li>
               </ul>
