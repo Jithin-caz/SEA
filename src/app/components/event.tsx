@@ -5,7 +5,7 @@ import YT_Video_Card from "@/app/components/yt_video_card";
 export default function Events()
 {
     const events=[
-        {id:1,title:"Aarohan 2025", content:"April 2025", image:"/Events/Aarohan25.jpg"}
+        {id:1,title:"Aarohan 2025", content:"April 2025", image:"/Events/Aarohan25.jpeg"}
     ]
 
     const past_events = [
