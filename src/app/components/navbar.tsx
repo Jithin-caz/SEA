@@ -11,6 +11,7 @@ const navigation = [
     // { name: 'CHAPTERS', href: '/pages/chapters', current: false },
     { name: 'MEMBERSHIP', href: '/pages/membership', current: false },
     { name: 'CONTACT', href: '/pages/contact', current: false },
+    { name: 'LOGIN', href: '/pages/login', current: false },
 ];
 
 function classNames(...classes:string[]) {
@@ -65,7 +66,11 @@ export default function Navbar() {
                                         href={item.href}
                                         aria-current={item.current ? 'page' : undefined}
                                         className={classNames(
-                                            item.href==currentPath ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                                            item.href === currentPath
+                                                ? 'bg-gray-900 text-white'
+                                                : item.name === 'LOGIN'
+                                                ? 'bg-blue-500 text-white font-semibold px-4 py-2 rounded-full shadow-lg hover:bg-blue-600 hover:scale-105 transition-transform duration-300'
+                                                : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                                             'rounded-md px-3 py-2 text-sm font-medium',
                                         )}
                                     >
