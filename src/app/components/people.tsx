@@ -94,7 +94,7 @@ export default function People() {
             position: "Joint Secretaries",
             division: "/ VSSC (VKC Area)",
             contact: 9895751102,
-            image: "/EC/unknown.jpg"
+            image: "/EC/image1.jpeg"
         },
         {
             name: "Santhana Gopal",
