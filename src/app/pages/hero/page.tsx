@@ -51,39 +51,44 @@ export default function Hero() {
     };
 
     return (
-     
-        <section className="relative min-h-dvh">
-            <div className="w-dvw h-dvh z-0 top-0 left-0 absolute">
-                <CarouselComponent />
-            </div>
-            <div className="p-2 z-10 absolute flex flex-col items-center justify-center top-0 left-0 w-dvw h-dvh bg-black bg-opacity-55 text-white"> </div>
-            <div onMouseMove={updateCircleMask} className="  blurBg md:p-5 relative z-40  w-dvw h-dvh">
-            <div
+      <section className="relative min-h-dvh">
+        <div className="w-dvw h-dvh z-0 top-0 left-0 absolute">
+          <CarouselComponent />
+        </div>
+        <div className="p-2 z-10 absolute flex flex-col items-center justify-center top-0 left-0 w-dvw h-dvh bg-black bg-opacity-55 text-white">
+          {" "}
+        </div>
+        <div
+          onMouseMove={updateCircleMask}
+          className="  blurBg md:p-5 relative z-40  w-dvw h-dvh"
+        >
+          <div
             ref={glassBoxRef}
-            className="trans w-full h-full bg-white bg-opacity-5 rounded-lg backdrop-blur-lg overflow-hidden"></div>
-
+            className="trans w-full h-full bg-white bg-opacity-5 rounded-lg backdrop-blur-lg overflow-hidden"
+          ></div>
+        </div>
+        <div className="p-2 z-30 absolute flex flex-col items-center justify-center top-0 left-0 w-dvw h-dvh  text-white">
+          <RiseUpText>
+            <div
+              ref={rectangleRef}
+              onMouseMove={handleMouseMove}
+              onMouseLeave={handleMouseLeave}
+              className="relative z-50 shadow-md bg-white bg-opacity-10 rounded-lg backdrop-blur-sm p-4 md:p-14 flex flex-col items-center justify-center"
+            >
+              <img
+                alt="Your Company"
+                src="/images/Logo/logo.png"
+                className="h-20 mr-2 w-auto"
+              />
+              <h1 className="glow-effect dela-gothic-one-regular text-center text-6xl sm:text-8xl md:text-9xl tracking-widest text-lightblue">
+                SEA
+              </h1>
+              <h3 className="text-lightblue text-3xl mt-2 text-center">
+                Space Engineers Association
+              </h3>
             </div>
-           <div className="p-2 z-30 absolute flex flex-col items-center justify-center top-0 left-0 w-dvw h-dvh  text-white">
-           <RiseUpText>
-           <div
-                        ref={rectangleRef}
-                        onMouseMove={handleMouseMove}
-                        onMouseLeave={handleMouseLeave}
-                        className="relative z-50 shadow-md bg-white bg-opacity-10 rounded-lg backdrop-blur-sm p-4 md:p-14 flex flex-col items-center justify-center"
-                    >
-                        
-                        <h1 className="glow-effect dela-gothic-one-regular text-center text-6xl sm:text-8xl md:text-9xl tracking-widest text-lightblue">
-                            SEA
-                        </h1>
-                        <h3 className="text-lightblue text-3xl mt-2 text-center">
-                            Space Engineers Association
-                        </h3>
-                    </div>
-               
-           </RiseUpText>
-                   
-           </div>
-           
-        </section>
+          </RiseUpText>
+        </div>
+      </section>
     );
 }

@@ -60,19 +60,17 @@ export default function Page() {
   return (
     <section className="min-h-dvh pt-32 p-3">
       <div className="px-4 sm:px-10 flex flex-col">
-        {/* Top-Left Heading & Logo */}
         <div className="flex items-center space-x-3">
           <Image
-            src="/images/aarohan-logo.svg" // Ensure the correct path
+            src="/images/aarohan-logo.svg"
             alt="Aarohan 2025 Logo"
-            width={60}
-            height={60}
+            width={120}
+            height={120}
             className="object-contain"
           />
           <Heading text1="AAROHAN" text2="2025" />
         </div>
 
-        {/* Event Details without Background */}
         <div className="mt-20 flex flex-col items-center text-center space-y-2">
           <p className="text-lg font-semibold text-gray-800">
             📍 Venue:{" "}
@@ -136,6 +134,15 @@ export default function Page() {
           >
             ▶
           </button>
+        </div>
+
+        <div className=" flex items-center justify-center w-full h-16">
+          <a
+            className=" bg-orange-600 text-white hover:bg-opacity-75 hover:scale-105 rounded-md px-3 py-2 text-sm font-medium"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc6YPARoraA9Djo2U4ZGVSQ-rYn5-ZipfSaLv3g1H9FKP16hw/viewform"
+          >
+            Register Now
+          </a>
         </div>
       </div>
     </section>
