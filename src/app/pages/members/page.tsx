@@ -1,7 +1,7 @@
 import Heading from "@/app/components/heading";
 import PeopleCard from "@/app/components/peopleCard";
 import RiseUpText from "@/app/components/risingtext";
-
+import {motion} from 'framer-motion'
 
 export default function People() {
   const peoples = [
@@ -134,11 +134,10 @@ export default function People() {
   ];
 
   return (
-    <section className="min-h-dvh w-screen p-6 md:p-12 lg:p-20 ">
+    < section className="min-h-dvh w-screen p-6 md:p-12 lg:p-20 ">
       <RiseUpText>
         <Heading text1={"Executive"} text2="Commitee" />
       </RiseUpText>
-
       <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {peoples.map((person, index) => (
           <PeopleCard key={index} {...person} />

@@ -27,7 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+    
        <head>
+       <meta name="google-site-verification" content="LYF1k84kAYUjyLYfeegK9AeVs8aV_jG_ZXNsP0osMdM" />
         <link rel="icon" href="/images/Logo/logo.ico" />
       </head>
       <body
@@ -35,6 +37,7 @@ export default function RootLayout({
       >
         <Navbar/>
         {children}
+        
         <Footer />
       </body>
     </html>
