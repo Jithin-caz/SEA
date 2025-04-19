@@ -11,18 +11,18 @@ if (!uri) {
   throw new Error('Please add your Mongo URI to .env.local');
 }
 if (process.env.NODE_ENV === 'development') {
-//@ts-ignore
+//@ts-expect-error "something could go wrong"
   if (!global._mongoClientPromise) {
-    //@ts-ignore
+    //@ts-expect-error "something could go wrong"
     client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
-    //@ts-ignore
+    //@ts-expect-error "something could go wrong"
     global._mongoClientPromise = client.connect();
   }
-  //@ts-ignore
+  //@ts-expect-error "something could go wrong"
   clientPromise = global._mongoClientPromise;
 } else {
   // In production mode, it's best to not use a global variable
-  //@ts-ignore
+  //@ts-expect-error "something could go wrong"
   client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
   clientPromise = client.connect();
 }

@@ -1,4 +1,4 @@
-//@ts-ignore
+//@ts-expect-error "something could go wrong"
 import clientPromise from "@/lib/mongodb";
 
 export async function GET(req: Request) {
@@ -6,7 +6,7 @@ export async function GET(req: Request) {
     const { searchParams } = new URL(req.url);
     const membership_id = searchParams.get('membership_id');
     
-    //@ts-ignore
+    //@ts-expect-error "something could go wrong"
     const client = await clientPromise;
     const db = await client.db("mainDB");
     

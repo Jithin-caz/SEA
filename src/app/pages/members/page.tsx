@@ -1,7 +1,6 @@
 import Heading from "@/app/components/heading";
 import PeopleCard from "@/app/components/peopleCard";
 import RiseUpText from "@/app/components/risingtext";
-import {motion} from 'framer-motion'
 
 export default function People() {
   const peoples = [
