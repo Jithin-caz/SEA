@@ -64,7 +64,7 @@ export default function Hero() {
         >
           <div
             ref={glassBoxRef}
-            className="trans w-full h-full bg-white bg-opacity-5 rounded-lg backdrop-blur-lg overflow-hidden"
+            className="trans w-full h-full bg-white bg-opacity-5 rounded-lg backdrop-blur-sm overflow-hidden"
           ></div>
         </div>
         <div className="p-2 z-30 absolute flex flex-col items-center justify-center top-0 left-0 w-dvw h-dvh  text-white">
