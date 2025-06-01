@@ -26,7 +26,7 @@ const CarouselComponent = () => {
                     <img className="h-[100dvh] w-[100dvw] object-cover" src="/images/sea2.jpeg" alt="Slide 2" />
                 </div>
                 <div>
-                    <img className="h-[100dvh] w-[100dvw] object-cover" src="/images/sea3.jpeg" alt="Slide 3" />
+                    <img className="h-[100dvh] w-[100dvw] object-cover" src="/images/sea5.jpg" alt="Slide 3" />
                 </div>
             </Carousel>
         </div>

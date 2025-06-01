@@ -5,7 +5,7 @@ import YT_Video_Card from "@/app/components/yt_video_card";
 export default function Events()
 {
     const events=[
-        {id:1,title:"Aarohan 2025", content:"April 2025", image:"/Events/Aarohan25.jpeg"}
+        {id:1,title:"Aarohan 25 and golden jubilee celebrations", content:"April 2025", image:"/images/aarohan-logo.svg"}
     ]
 
     const past_events = [
@@ -19,16 +19,21 @@ export default function Events()
 
     return(
         <section className=" p-3 flex flex-col">
-            <div className=" px-2 sm:px-10 flex flex-col">
+            {/* <div className=" px-2 sm:px-10 flex flex-col">
                 <Heading text1="Latest & Upcoming" text2="Events"/>
                 <div className=" mt-12 grid grid-cols-4 gap-5 place-items-center">
                     {events.map(event=><Card key={event.id} classname=" col-span-4 sm:col-span-2 md:col-span-1" image={event.image} title={event.title} content={event.content}/>)}
                 </div>
-            </div> 
+            </div>  */}
             <div className=" mt-8 px-2 sm:px-10 flex flex-col">
                 <Heading text1="Past" text2="Events"/>
-                <div className=" mt-12 grid grid-cols-3 gap-3 place-items-center">
+                 <div className="col-span-1  mt-12 ">
+                        {events.map(event=><Card key={event.id} classname="w-full" image={event.image} title={event.title} content={event.content}/>)}
+                    </div>
+                <div className=" mt-12 grid grid-cols-1 md:grid-cols-4 gap-3">
+                  
                     {past_events.map(event=><YT_Video_Card key={event.id} classname=" col-span-4 sm:col-span-2 md:col-span-1" link={event.link} />)}
+               
                 </div>
             </div> 
         </section>
