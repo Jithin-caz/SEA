@@ -60,10 +60,10 @@ const ContactPage: React.FC = () => {
                   <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                     <EmailIcon /> {/* Using the Email icon */}
                   </div>
-                  <a href="" className="text-[#007bff] text-sm ml-4">
+                  <div className="text-[#007bff] text-sm ml-4">
                     <small className="block">Mail</small>
                     <strong><a href="mailto:space.eng.asc@gmail.com">space.eng.asc@gmail.com</a></strong>
-                  </a>
+                  </div>
                 </li>
               </ul>
             </div>
