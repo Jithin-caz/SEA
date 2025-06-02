@@ -27,9 +27,16 @@ export default function Events()
             </div>  */}
             <div className=" mt-8 px-2 sm:px-10 flex flex-col">
                 <Heading text1="Past" text2="Events"/>
-                 <div className="col-span-1  mt-12 ">
-                        {events.map(event=><Card key={event.id} classname="w-full" image={event.image} title={event.title} content={event.content}/>)}
-                    </div>
+                <div className="col-span-1 mt-12">
+                    <a href="https://drive.google.com/drive/folders/1oWafY5blKU6azAtsE0uXFByeMeu9zTOv" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       className=" max-w-sm block mt-6 text-xl font-semibold text-blue-50  hover:scale-105 transition-all duration-300 bg-blue-600 rounded-lg p-4 shadow-md text-center">
+                        📸 Aarohan 25 photos 🎉
+                    </a>
+                    {events.map(event=><Card key={event.id} classname="w-full" image={event.image} title={event.title} content={event.content}/>)}
+                    
+                </div>
                 <div className=" mt-12 grid grid-cols-1 md:grid-cols-4 gap-3">
                   
                     {past_events.map(event=><YT_Video_Card key={event.id} classname=" col-span-4 sm:col-span-2 md:col-span-1" link={event.link} />)}
